@@ -2,9 +2,6 @@ ALTER TABLE assets
 ALTER COLUMN asset_no TYPE INT 
 USING asset_no::INT;
 
-
-
-
 CREATE TABLE employee(
 employee_id VARCHAR(50) PRIMARY KEY,
 last_name CHAR(50),
